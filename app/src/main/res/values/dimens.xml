@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_dimens">16dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="image_height">150dp</dimen>
+    <dimen name="title_marginBottom">8dp</dimen>
+    <dimen name="title_fontSize">26sp</dimen>
+    <dimen name="author_fontSize">16sp</dimen>
+    <dimen name="pillar_marginTop">8dp</dimen>
+</resources>

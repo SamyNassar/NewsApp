@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_dimens"
+    android:layout_marginTop="@dimen/margin_dimens"
+    android:layout_marginRight="@dimen/margin_dimens"
+    app:cardCornerRadius="@dimen/cardCornerRadius">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_dimens"
+            android:layout_marginLeft="@dimen/margin_dimens"
+            android:layout_marginTop="@dimen/margin_dimens"
+            android:layout_marginRight="@dimen/margin_dimens"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_fontSize"
+            app:fontFamily="serif"
+            tools:text="Article Title" />
+
+        <TextView
+            android:id="@+id/type_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_dimens"
+            android:layout_marginLeft="@dimen/margin_dimens"
+            android:textSize="@dimen/author_fontSize"
+            app:fontFamily="monospace"
+            tools:text="Type" />
+
+        <TextView
+            android:id="@+id/pillarName_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_dimens"
+            android:layout_marginLeft="@dimen/margin_dimens"
+            android:layout_marginTop="@dimen/pillar_marginTop"
+            android:layout_marginRight="@dimen/margin_dimens"
+            android:layout_marginBottom="@dimen/margin_dimens"
+            app:fontFamily="sans-serif-light"
+            tools:text="pillarName" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
